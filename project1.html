@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header text-3xl">Me</h1>
+      <nav class="nav text-pink-800">
+        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#work">Work</a>
+        <a class="nav-item" href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="about">
+        <h2>About me</h2>
+        <p class="hyo hyphens-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          consequuntur in atque commodi ipsam unde alias, nesciunt dolore quidem
+          porro, eligendi magnam maxime vero voluptatum consequatur voluptates
+          accusamus nihil modi.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/424l-OhNTPA?si=9pYFGQ52W-PhULs9"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <p class="still italic">And this is my favourite movie</p>
+        <img
+          src="https://www.booska-p.com/wp-content/uploads/2021/06/fast-furious-la-vente-record-de-la-voiture-mythique-de-paul-walker-649.jpg"
+          alt="Fast x furious"
+        />
+      </section>
+
+      <section id="work">
+        <h2>My work</h2>
+        <p class="pro font-serif">These are my projects</p>
+        <ul>
+          <li>Project 1</li>
+          <li>project 2</li>
+          <li>Project 3</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="cont bg-red-400">
+        <h2>Contact Me</h2>
+
+        <form>
+          <label for="name">Your name</label>
+          <input type="text" placeholder="Type your name" />
+          <br />
+          <br />
+          <label for="email">your E-mail</label>
+          <input type="text" placeholder="Type your e-mail" />
+          <br />
+          <br />
+          <label for="message">Message</label>
+          <textarea
+            name="Message"
+            rows="5"
+            placeholder=" Say Something"
+          ></textarea>
+          <button>submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Mohamed saidani. 2024</p>
+    </footer>
+  </body>
+</html>
